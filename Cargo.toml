@@ -1,0 +1,11 @@
+[package]
+name = "gait"
+version = "0.1.0"
+authors = ["Piet Geursen <pietgeursen@gmail.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+#![feature(lang_items)] 
+
+#![feature(panic_implementation)]
